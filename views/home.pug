@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js")
+block style 
+    style
+        include ../static/style.css
+
+block content
+
+    section#introSection 
+        div Welcome to ABCD 
+        div.small AnyBodyCanDance
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Classical
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/1.png", alt="")
+                div.card-content
+                    p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum omnis tenetur quam!
+        div.card
+            h3 Traditional 
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/2.png", alt="")
+                div.card-content
+                    p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum omnis tenetur quam!
+        div.card
+            h3 Hip-Hop
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/3.png", alt="")
+                div.card-content
+                    p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum omnis tenetur quam!
+    section#sponserSection
+        h2 Sponsors
+        div#spons
+            img(src="/static/img/logo1.png", alt="" class="spoimg")
+            img(src="/static/img/logo2.png", alt="" class="spoimg")
+            img(src="/static/img/logo3.png", alt="" class="spoimg")
+            img(src="/static/img/logo4.png", alt="" class="spoimg")
+            img(src="/static/img/logo6.png", alt="" class="spoimg")

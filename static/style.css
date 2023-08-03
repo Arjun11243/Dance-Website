@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display:wght@500&display=swap');
+
+/* font-family: 'Josefin Sans', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+#logo{
+    display:flex;
+    align-items: center;
+    color:white;
+
+}
+#logo img{
+    height:auto;
+    width:33px
+}
+/* #logo img{
+    height:100px;
+    width:100px;
+} */
+nav{
+    background-color: rgb(58, 33, 58);
+    padding:14px;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    padding: 17px;
+    font-size:1.3rem;
+    color:white;
+}
+
+li a:hover{
+    color:black;
+}
+#introSection{
+    height:400px;
+    color:white;
+    background: url('/static/img/bg_1.jpg') no-repeat center bottom/cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.6rem;
+}
+/* #introSection div{
+} */
+
+
+#introSection div.small{
+    font-size:2rem;
+}
+
+#missionSection{
+    height:400px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+#missionSection h2{
+    padding:20px;
+
+    font-size:2.2rem;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+#missionSection div.card{
+    display: inline-block;
+    height: 275px;
+    width: 414px;
+    /* width:30%; */
+    border: 2px solid black;
+    border-radius: 34px;
+    margin: 9px 26px;
+}
+
+#missionSection div.card h3{
+    margin: 13px;
+}
+
+#missionSection div.card p{
+    padding:2px;
+}
+
+.card-box{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height:200px;
+
+}
+
+.card-img img{
+    height: inherit;
+} 
+
+#sponserSection{
+    padding:20px;
+    text-align: center;
+    height:300px;
+    background-color: rgb(177, 144, 177);
+}
+
+#sponserSection h2{
+    font-size:2.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#spons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#spons .spoimg{
+    height:auto;
+    width: 152px;
+    padding: 23px;
+}
+
+#foot{
+    background-color: black;
+    color:white;
+    text-align: center;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;    
+}
